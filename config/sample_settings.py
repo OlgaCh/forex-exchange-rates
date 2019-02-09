@@ -1,0 +1,18 @@
+SERVER_NAME = ''
+SECRET_KEY = ''
+
+# Redis
+REDIS_HOST = ''
+REDIS_PORT = 0
+REDIS_DB = ''
+REDIS_PWD = ''
+
+# MySQL
+MYSQL_URI = ''
+
+# OXR
+OXR_APIKEY = ''
+DEFAULT_BASE = ''
+
+# General
+ROUND_DIGITS = 0

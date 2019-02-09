@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+redis
+pymysql
+requests
+flake8
+pytest
+pytest-flask
+pytest-mock
