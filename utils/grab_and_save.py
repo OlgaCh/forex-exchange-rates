@@ -61,7 +61,7 @@ def calculate_final_amount(rate, original_amount):
     rate.update(
         {
             'original_amount': original_amount,
-            'converted_amount': round(original_amount*rate.get('rate'), ROUND_DIGITS),
+            'converted_amount': round(original_amount/rate.get('rate'), ROUND_DIGITS),
         }
     )
 
