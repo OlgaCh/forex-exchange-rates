@@ -17,7 +17,14 @@ and `redis`.
 and have all required sections populated.
 
 
-2. Data both from `MySQL` and `redis` gets persisted on local storage.
+2. Docker-compose for `db` has a line which creates database structure from scratch
+   > ./db:/docker-entrypoint-initdb.d/:ro
+   
+   Once you run docker-compose first time and db get initialized please remove it to not
+   reinit database on each startup.
+
+
+3. Data both from `MySQL` and `redis` gets persisted on local storage.
 So please don't forget to remove respective volumes when you stop using the app.
 
     It can be done with
